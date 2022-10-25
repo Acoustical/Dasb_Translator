@@ -41,7 +41,7 @@ def main():
             time.sleep(1)
             new = pyperclip.paste()
             for r in replace_list:
-                new.replace(r[0], r[1])
+                new = new.replace(r[0], r[1])
             pyperclip.copy(new)
             if len(new) > 0 and new != prv:
                 translate(new)
