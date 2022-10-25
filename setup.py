@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dasb_translator",
-    version="0.0.1",
+    version="0.0.2",
     author="Hompeaz",
     author_email="hompeaz@gmail.com",
     description="A CLI translation tool by reading the clipboard",
@@ -24,7 +24,7 @@ setuptools.setup(
     install_requires=[
         "requests",
         "pyperclip",
-        "deepl"
+        "deepl-cli"
     ],
     entry_points={
         'console_scripts': [
