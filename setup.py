@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dasb_translator",
-    version="0.0.3",
+    version="0.0.4",
     author="Hompeaz",
     author_email="hompeaz@gmail.com",
     description="A CLI translation tool by reading the clipboard",
